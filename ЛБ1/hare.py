@@ -21,7 +21,7 @@ def x_loop_line1(img_mat, x0, y0, x1, y1, color, change):
 
 v = []
 f = []
-for i in open('e:/обуч/лабораторные/комп граф/ЛБ1п/model_1.obj'):
+for i in open('E:\обуч\лабораторные\комп граф\-\ЛБ1\model_1.obj'):
     if i[0:2] == 'v ':
         v.append(list(map(float, i.split()[1:3])))
     elif i[0:2] == 'f ':
